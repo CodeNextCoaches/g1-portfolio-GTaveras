@@ -1,0 +1,106 @@
+:root {
+  --page-bg-color: #f9fafc;
+  --page-text-color: #32719C;
+  --banner-bg-color: #32719C;
+  --header-text-color: #eee;
+}
+html, body {
+  color: var(--page-text-color);
+  box-sizing: border-box;
+  height: 100%;
+  margin: 10px 0 0;
+  font-size: 100%;
+  background-image: url(pic-of-me.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1 {
+  display: flex;
+  color: ##003366;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#shout {
+	font-weight: boulder;
+}
+
+#contact {
+  color: #FFFFFF;
+
+}
+
+.contact {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+}
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    width:100%;
+    height: 4.5%;
+    background-color: black;
+    overflow: auto;
+}
+
+  /* Style the links inside the navigation bar */
+  /*.topnav a {
+    display: flex;
+    float: left;
+    color: #f2f2f2;
+    text-align: space-between;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 22%;
+  }*/
+
+  /* Change the color of links on hover */
+  /*.topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }*/
+
+  /* Add a color to the active/current link */
+  /*.topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+  }*/
+
+.row {
+  display: table;
+  content: " ";
+}
+
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 20;
+  line-height: 1.4;
+}
+
+#banner {
+    grid-area: b;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--banner-bg-color);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: var(--header-text-color);
+}
